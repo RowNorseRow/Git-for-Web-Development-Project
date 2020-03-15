@@ -107,7 +107,7 @@
 
     31. How do I find out what file I am in, when I am using the command line? 
         pwd
-        
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
         ls
 
@@ -134,7 +134,15 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Block elements cause a line break whereas an inline element does not. You also can't put block elements inside of inline elements. 
     2. What happens when an element is positioned absolutely? 
+        The elements will remain positioned in a specific point of the page. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline;
+        width: value; 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block: <p>, <h1>, <div>
+        Inline: <img> <script>
+        Inline-block: <li> 
     5. In your own words, explain the box model. What is the fix for the box model?
+        The box model is the container around every element that consists of the margin, padding, borders, and content. The fix for the box model is the box-sizing property. 
