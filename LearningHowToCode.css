@@ -1,0 +1,88 @@
+body {
+    border: 20px solid #00ced1;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    color: #2F4F4F;
+  }
+  
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #778899;
+  }
+    
+  
+  h1:hover {
+    color: #bc8f8f;
+  }
+  
+  .info {
+    background-color: #7fffd4;
+    padding: 5%;
+  }
+  
+  .info:hover {
+    background-color: #DEB887;
+  }
+  
+  .firstSection {
+    color: #00CED1;
+    background-color: #2F4F4F;
+    padding: 10%;
+  }
+  
+  .firstSection:hover {
+    background-color: #696969;
+    color: #FFA07A;
+  }
+  
+  h2 {
+     display: block;
+     font-size: 1.5em;
+     margin-block-start: 0.83em;
+     margin-block-end: 0.83em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-weight: bold;
+  }
+  
+  .secondSection {
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+  
+  .secondSection h2{
+    text-transform: uppercase;
+    color: #778899;
+  }
+  
+  .secondSection:hover {
+    color: #FF8C00;
+  }
+  
+  .secondSection h2:hover {
+    text-transform: capitalize; 
+    color: #FF8C00;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 10% 0; 
+  }
+  
+  img:hover {
+    border: 10px;
+    border-style: dotted;
+    border-color: red;
+    
+  }

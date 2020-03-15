@@ -1,0 +1,148 @@
+    1. What is Semantic HTML? 
+        Using elements that heave meaning for the browser. 
+
+    2. What is HTML used for? 
+        To add order and structure to a webpage. 
+
+    3. What is an attribute and where do we put it? 
+        Attributes provide additional information about HTMl elements. We put them after elements that have outside links or information.  
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        Typically used for the main heading for a page. You should only use it once. 
+        
+    5. Name two tags that have required attributes
+        <src> and <href>
+
+    6. What do we put in the head of our HTML document? 
+        Metadata defining the document title, character set, styles, scripts, and other metadata.
+
+    7. What is an id? 
+        An attribute used to specify a unique id for an HTML element. 
+
+    8. What elements can I add an id to? 
+        Any element. 
+
+    9. How many times can I use the same id on a page? 
+        Once.
+
+    10. What is a class? 
+        An attribute used to define equal styles for elements with the same class name. 
+
+    11. What elements can I add a class to?
+        Any element. 
+
+    12. How many times can I use the same class on a page? 
+        Unlimited amount of times.
+
+    13. How do I get my link to open in a new tab? 
+        target="_blank"
+
+    14. What is the alt attribute used for? 
+        To display a text description of an image if it cannot be displayed. 
+
+    15. How do I reference an id? 
+        #idname
+
+    16. What is the difference between a section and a div?
+        Sections have more specificity than divs. 
+
+    17. What is CSS used for? 
+        To add style to a webpage via tags in an html file.
+
+    18. How to we select an element? Example - every h2 on the page
+        h2 {
+        //code here
+        }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class can be used unlimited times to describe multiple elements whereas the id can only be used once.
+         <div class="container"></div>//can copy this container multiple times. 
+         <title id="mainTitle">Title</title>//used to call only this element.  
+
+    20. How do we select classes in CSS?
+            .className {
+                //code here
+            }
+    21. How do we select a p element with a single class of “human””?
+        .human p {
+
+        }
+
+    22. What is a parent child selector? When would this be useful? 
+        A css selector used to select elements with a specified parent.
+        We can use these to select very specific elements nested within other elements. 
+
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a{
+
+        }
+
+    24. What is a pseudo selector?
+        Built in classes used to define the state of an element.
+        For Example: .element:hover {
+                background-color: green; 
+        }
+
+    25. What do we use the change the spacing between lines?
+        line-height: value;
+
+    26. What do we use to change the spacing between letters?
+        letter-spacing: value; 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+          border: 1px dotted black; 
+        }
+        
+    29. How do I select everything on the page? 
+        The universal selector * {
+
+        }
+
+    30. How do I write a comment in CSS?
+        /*comment*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm filename You have to be careful because this command completely removes the files from you PC. 
+
+    34. Why should I use version control?
+        Version control is useful in that it allows us to have total control over each change thats made to a file 
+        and also allows multiple people to collaborate on the same file without making any changes to the master file. 
+    
+    35. How often should I commit to github?
+        As often as you make any changes to a file. 
+
+    36. What is the command we would use to push our repo up to github?
+        git push origin [branchname]
+
+    37. Walk me through Lambda's git flow. 
+        First I have to fork the repo, then add my TL as a collaborator. Next I clone my repo into my local repo using 
+        git clone <my-repo-address> Then i create a new branch that ill be making all my changes to. I do this by using 
+        git checkout -b 'firstname-lastname' then push my new branch back up to GitHub with git push -u origin firstname-lastname
+        Once i have completed that ill create a pull request and have my TL as a reviewer and wait for him to merge my branch into the master "STUDENT FORK".
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        Block elements cause a line break whereas an inline element does not. You also can't put block elements inside of inline elements. 
+    2. What happens when an element is positioned absolutely? 
+        The elements will remain positioned in a specific point of the page. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline;
+        width: value; 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block: <p>, <h1>, <div>
+        Inline: <img> <script>
+        Inline-block: <li> 
+    5. In your own words, explain the box model. What is the fix for the box model?
+        The box model is the container around every element that consists of the margin, padding, borders, and content. The fix for the box model is the box-sizing property. 
